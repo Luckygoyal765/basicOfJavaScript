@@ -41,5 +41,32 @@ console.log(typeof Id);
 
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive)  heap (non primitive (reference))
+
+let myName = "Lucky Goyal"
+
+let anotherName = "Nishant Goyal"
+
+anothername = myName
 
 
+console.log(anotherName);
+console.log(myName);
+
+
+let userOne = {
+    email:"lucky@google.com",
+    upi:"upi@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Nishant@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// stack provides us the copy of the data so even if we giys are making some changes in the stack or in any variable it will not affect the main varibale 
+// whereas, in the case of heap all the variables are referenced through the same reference same point so if we are making any changes there or in any one variable or anyother variable is associated to that same variable then the values of all the variables will change 
