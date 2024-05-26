@@ -46,5 +46,3 @@ console.log(myn2);
 //  now here comes the difference between slice and splice :
 //  splice basically manipulates or changes the original array as u can see in the output when u will run tis above code but slice will not change the original array its an interview question 
 //  keep the above point in mind
-
-// vc
