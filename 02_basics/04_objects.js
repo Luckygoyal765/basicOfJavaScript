@@ -38,14 +38,50 @@ const obj2 = {3:"a",4:"b"}
 const obj3 ={...obj1,...obj2} //best way to use this method or to perform concatenation
 // console.log(obj3) //add as many as objects we want
 
-console.log(Object.keys(tinderUser)) //to access the keys of an object 
+// console.log(Object.keys(tinderUser)) //to access the keys of an object 
 // the output will come an array mean all the keys are store in an array and afteer that if we want we can use loops or anything we can perform according to our chouces and our needs
 
-console.log(Object.values(tinderUser)) //with this same method i can take out values also of the keys of an object 
+// console.log(Object.values(tinderUser)) //with this same method i can take out values also of the keys of an object 
 
 // one more thing
 // to check whether the vallue of that key is present in the object or not 
 
-console.log(tinderUser.hasOwnProperty('age'))
+// console.log(tinderUser.hasOwnProperty('age'))
 // output will come in boolean if yes then true else false
+
+const course ={
+    courseName: "js in hindi",
+    price: "999",
+    courseTeacher:"Lucky"
+}
+
+// for accessing the values
+// console.log(course.courseTeacher) //instead of using this use the below method
+
+const{courseTeacher: instructor} = course // here we can give any other name also
+console.log(instructor)
+
+// both are correct in their places but the most usable one is this one only which will make ur work lil bit easy 
+
+// THIS IS KNOWN AS OBJECT DESTRUCTING 
+
+// now for json API
+
+// {
+//     "name":"Lukcy",
+//     "coursename":"json API in hindi"
+//     "price":"free"
+// }
+
+// this above method is the syntax for json API in the form of object ofcourse its not an object completely bcs objects have some names to it but we can say bcs of this {}
+
+// but we can also get it in the form of arrays []
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+// array that contains alot of objects
 
