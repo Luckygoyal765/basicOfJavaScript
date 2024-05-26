@@ -85,3 +85,4 @@ console.log(instructor)
 
 // array that contains alot of objects
 
+// JSON : javascript object notation
